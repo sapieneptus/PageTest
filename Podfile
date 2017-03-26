@@ -1,4 +1,4 @@
 
 target 'UITests' do
-  pod 'VSMobileCenterExtensions'
+  pod 'VSMobileCenterExtensions', :path => '~/test-cloud-xcuitest-extensions'
 end

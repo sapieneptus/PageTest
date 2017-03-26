@@ -2,18 +2,10 @@
 #import <VSMobileCenterExtensions/VSMobileCenterExtensions.h>
 #import <XCTest/XCTest.h>
 
-@interface UITests : XCTestCase
+@interface TextTests : XCTestCase
 @end
 
-@implementation UITests
-
-
-+ (void)initialize {
-    NSLog(@"Disabling screenshots");
-    NSUserDefaults *defs = [NSUserDefaults standardUserDefaults];
-    [defs setBool:YES forKey:@"DisableScreenshots"];
-    [defs synchronize];
-}
+@implementation TextTests
 
 - (void)setUp {
     [super setUp];
@@ -34,9 +26,7 @@
 }
 
 - (void)type:(NSString *)text {
-    label(@"Then I type '%@'", text);
-    
-    
+    label(@"I am preparing to type text");
     [XCUIDevice sharedDevice].orientation = UIDeviceOrientationPortrait;
     
     XCUIApplication *app = [[XCUIApplication alloc] init];
@@ -48,6 +38,8 @@
     [textView tap];    
     
     [textView typeText:text];
+
+    label(@"Then I type '%@'", text);
 }
 
 - (void)test1 {

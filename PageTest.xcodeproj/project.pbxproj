@@ -8,12 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		703A3550417A18B5A52ED578 /* libPods-UITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E955879F8CEA74E74993C1F /* libPods-UITests.a */; };
+		893607861E86C745006F2956 /* OrientationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 893607851E86C745006F2956 /* OrientationTests.m */; };
+		893607881E86C809006F2956 /* SwipeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 893607871E86C809006F2956 /* SwipeTests.m */; };
 		8943D93A1C10FE1700F5FBE9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8943D9391C10FE1700F5FBE9 /* main.m */; };
 		8943D93D1C10FE1700F5FBE9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8943D93C1C10FE1700F5FBE9 /* AppDelegate.m */; };
 		8943D9491C10FE1700F5FBE9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8943D9471C10FE1700F5FBE9 /* Main.storyboard */; };
 		8943D94B1C10FE1700F5FBE9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8943D94A1C10FE1700F5FBE9 /* Assets.xcassets */; };
 		8943D94E1C10FE1700F5FBE9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8943D94C1C10FE1700F5FBE9 /* LaunchScreen.storyboard */; };
-		896570E51DF97FCB00E4BA98 /* UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 896570E41DF97FCB00E4BA98 /* UITests.m */; };
+		896570E51DF97FCB00E4BA98 /* TextTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 896570E41DF97FCB00E4BA98 /* TextTests.m */; };
 		89748CBE1E7B261100AD53A9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 89748CAF1E7B261100AD53A9 /* Assets.xcassets */; };
 		89748CBF1E7B261100AD53A9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89748CB11E7B261100AD53A9 /* LaunchScreen.storyboard */; };
 		89748CC01E7B261100AD53A9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89748CB31E7B261100AD53A9 /* Main.storyboard */; };
@@ -50,6 +52,8 @@
 		46C845B1CBBA2E720CCDCCBB /* Pods-UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-UITests/Pods-UITests.release.xcconfig"; sourceTree = "<group>"; };
 		8914DE3E1E4CE19F00D6BE4D /* XCUITestExtensions.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCUITestExtensions.framework; path = "../../Library/Developer/Xcode/DerivedData/XCUITestExtensions-ewsucnrgihnttpferjkgmypdmdgm/Build/Products/Debug-iphonesimulator/XCUITestExtensions.framework"; sourceTree = "<group>"; };
 		8914DE411E4CE5AA00D6BE4D /* XCUITestExtensions.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = XCUITestExtensions.framework; sourceTree = "<group>"; };
+		893607851E86C745006F2956 /* OrientationTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OrientationTests.m; sourceTree = "<group>"; };
+		893607871E86C809006F2956 /* SwipeTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SwipeTests.m; sourceTree = "<group>"; };
 		8943D9351C10FE1700F5FBE9 /* PageTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PageTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8943D9391C10FE1700F5FBE9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		8943D93B1C10FE1700F5FBE9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -59,7 +63,7 @@
 		8943D94D1C10FE1700F5FBE9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8943D94F1C10FE1700F5FBE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		896570E21DF97FCB00E4BA98 /* UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		896570E41DF97FCB00E4BA98 /* UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UITests.m; sourceTree = "<group>"; };
+		896570E41DF97FCB00E4BA98 /* TextTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TextTests.m; sourceTree = "<group>"; };
 		896570E61DF97FCB00E4BA98 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		89748CAF1E7B261100AD53A9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		89748CB21E7B261100AD53A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -166,7 +170,9 @@
 		896570E31DF97FCB00E4BA98 /* UITests */ = {
 			isa = PBXGroup;
 			children = (
-				896570E41DF97FCB00E4BA98 /* UITests.m */,
+				893607851E86C745006F2956 /* OrientationTests.m */,
+				896570E41DF97FCB00E4BA98 /* TextTests.m */,
+				893607871E86C809006F2956 /* SwipeTests.m */,
 				896570E61DF97FCB00E4BA98 /* Info.plist */,
 			);
 			path = UITests;
@@ -353,7 +359,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				896570E51DF97FCB00E4BA98 /* UITests.m in Sources */,
+				893607861E86C745006F2956 /* OrientationTests.m in Sources */,
+				893607881E86C809006F2956 /* SwipeTests.m in Sources */,
+				896570E51DF97FCB00E4BA98 /* TextTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

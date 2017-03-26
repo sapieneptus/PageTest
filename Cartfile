@@ -1,2 +1,2 @@
 
-github "xamarinhq/test-cloud-xcuitest-extensions"
+github "xamarinhq/test-cloud-xcuitest-extensions" "feature/use-xcactivityrecord-for-label"
